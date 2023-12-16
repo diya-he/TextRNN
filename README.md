@@ -26,9 +26,11 @@ This repository contains scripts for English text classification using various m
 [labelled_newscatcher_dataset.csv](https://www.kaggle.com/datasets/kotartemiy/topic-labeled-news-dataset)
 
 ## Project Structure
-* datasets/: Contains CSV files for training (train.csv), validation (val.csv), and testing (test.csv).
 * tool.py: Utility functions for cleaning special characters and contractions.
 * train_eval.py: Script for training and evaluating the models.
+* run.py: run-time file (computing)
+* TextRNN.py: The TextRNN model proposed in the reference paper "Recurrent Neural Network for Text Classification with Multi Task Learning"
+* DPCNN.py: The DPCNN model proposed in the reference paper "Deep Pyramid Convolutional Neural Networks for Text Categorization"
 * README.md: Project documentation.
 ## Usage
 ### 1 Data Preparation
@@ -66,4 +68,4 @@ This example uses pre-trained word embeddings to train the TextCNN model. Adjust
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
