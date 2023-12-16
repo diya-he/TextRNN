@@ -6,7 +6,9 @@ import torch.nn.functional as F
 
 class Config(object):
 
-    """配置参数"""
+
+
+    """ 配置参数 """
     def __init__(self, dataset, embedding):
         self.model_name = 'DPCNN'
         self.train_path = dataset + '/data/train.csv'                                # 训练集
